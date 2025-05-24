@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> first task </title>
+</head>
+<body>
+  <form action=""> 
+      <fieldset style="background-color: rgb(219, 104, 104); border: 5px grey ; " >
+    <legend style="background-color: blue;" >First Task</legend>
+    <br>
+    <br>
+    <fieldset style="background-color: rgb(145, 76, 7);" >
+      <legend style="background-color: blue;" > Your Name  </legend>
+       <br>
+      <table>
+        <tbody> 
+          <tr>
+             <td>
+            <label for="first name">first name</label>
+          </td>
+          <td>
+            <input type="text" id="first name" name="first name" placeholder="Enter your first name">
+          </td>
+          </tr>
+          <tr>
+            <td>
+            <label for="last name">last name</label>
+          </td>
+          <td>
+            <input type="text" id="last name" name="last name" placeholder="Enter your last name">
+          </td>
+          </tr>
+        
+        </tbody>
+
+        
+      </table>
+       
+
+    </fieldset>
+    <br>
+    <table>
+      <tbody>
+        <tr>
+          <td>
+            <label for="email">Email</label>
+          </td>
+          <td>
+            <input type="email" id="email" name="email" placeholder="Enter your email">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="phone">Phone</label>
+          </td>
+          <td>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="address">Address</label>
+          </td>
+          <td>
+            <input type="text" id="address" name="address" placeholder="Enter your address">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="password">password</label>
+          
+          </td>
+          <td>
+            <input type="password" id="password" name="password" placeholder="Enter your password">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="confirm password">confirm password</label>
+          </td>
+          <td>
+            <input type="password" id="confirm password" name="confirm password" placeholder="Confirm your password">
+          </td>
+        </tr>
+        <br>
+        <br>
+          <tr>
+            <td>
+            <input type="radio" id="male" name="gender" value="male" title="Select male">
+            <label for="male">Male</label>
+          </td>
+          </tr>
+          <tr>
+           <td>
+            <input type="radio" id="female" name="gender" value="female" title="Select female">
+            <label for="female">Female</label>
+          </td> 
+          </tr>
+          <tr>
+            <td>
+            <label for="status"> student </label>
+            <input type="checkbox" id="status" name="status" value="student" title="Select if you are a student">
+
+            
+          </td>
+          <td>
+            <label for="status"> employee </label>
+            <input type="checkbox" id="status" name="status" value="employee" title="Select if you are an employee">
+          </td>
+          </tr>
+      </tbody>
+    </table>
+    <br>
+    <button type="submit" > submit </button>
+  </fieldset>
+  </form>
+
+</body>
+</html>
